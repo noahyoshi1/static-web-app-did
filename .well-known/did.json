@@ -1,1 +1,48 @@
-
+{
+  "id": "did:web:ashy-meadow-0cc25bf10.3.azurestaticapps.net",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:ashy-meadow-0cc25bf10.3.azurestaticapps.net"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://ashy-meadow-0cc25bf10.3.azurestaticapps.net/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/3c1b178e-af58-41a8-af25-c7c041da2b1d"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#ff4581ecb90a4de9b60cdab9a566ffb1vcSigningKey-d0d13",
+      "controller": "did:web:ashy-meadow-0cc25bf10.3.azurestaticapps.net",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+        "crv": "secp256k1",
+        "kty": "EC",
+        "x": "ngvdFTjDU_RFgBppYdUSzaqV08DkRB_zNni6ZNeP9mo",
+        "y": "vkUYWQz8dzaO3iGm6HNVersD5W0BGtD7Q6s0FYr_ZlU"
+      }
+    }
+  ],
+  "authentication": [
+    "#ff4581ecb90a4de9b60cdab9a566ffb1vcSigningKey-d0d13"
+  ],
+  "assertionMethod": [
+    "#ff4581ecb90a4de9b60cdab9a566ffb1vcSigningKey-d0d13"
+  ]
+}
