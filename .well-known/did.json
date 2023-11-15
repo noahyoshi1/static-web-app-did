@@ -1,9 +1,9 @@
 {
-  "id": "did:web:ashy-meadow-0cc25bf10.3.azurestaticapps.net",
+  "id": "did:web:red-beach-070c72a10.4.azurestaticapps.net",
   "@context": [
     "https://www.w3.org/ns/did/v1",
     {
-      "@base": "did:web:ashy-meadow-0cc25bf10.3.azurestaticapps.net"
+      "@base": "did:web:red-beach-070c72a10.4.azurestaticapps.net"
     }
   ],
   "service": [
@@ -12,7 +12,7 @@
       "type": "LinkedDomains",
       "serviceEndpoint": {
         "origins": [
-          "https://ashy-meadow-0cc25bf10.3.azurestaticapps.net/"
+          "https://red-beach-070c72a10.4.azurestaticapps.net/"
         ]
       }
     },
@@ -28,21 +28,21 @@
   ],
   "verificationMethod": [
     {
-      "id": "#ff4581ecb90a4de9b60cdab9a566ffb1vcSigningKey-d0d13",
-      "controller": "did:web:ashy-meadow-0cc25bf10.3.azurestaticapps.net",
+      "id": "#b3f72a5ae6e645beb74c924ccfa37307vcSigningKey-61eb5",
+      "controller": "did:web:red-beach-070c72a10.4.azurestaticapps.net",
       "type": "EcdsaSecp256k1VerificationKey2019",
       "publicKeyJwk": {
         "crv": "secp256k1",
         "kty": "EC",
-        "x": "ngvdFTjDU_RFgBppYdUSzaqV08DkRB_zNni6ZNeP9mo",
-        "y": "vkUYWQz8dzaO3iGm6HNVersD5W0BGtD7Q6s0FYr_ZlU"
+        "x": "JoTEKVSGI3qmwM3u2YFuGkyiA9RJo7h_Ss-TIB2nAik",
+        "y": "n_N03duuZ3l5iz6G4qcM2g-rGGRR6l0OIrq3cdnaQ_I"
       }
     }
   ],
   "authentication": [
-    "#ff4581ecb90a4de9b60cdab9a566ffb1vcSigningKey-d0d13"
+    "#b3f72a5ae6e645beb74c924ccfa37307vcSigningKey-61eb5"
   ],
   "assertionMethod": [
-    "#ff4581ecb90a4de9b60cdab9a566ffb1vcSigningKey-d0d13"
+    "#b3f72a5ae6e645beb74c924ccfa37307vcSigningKey-61eb5"
   ]
 }
